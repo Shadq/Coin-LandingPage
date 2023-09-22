@@ -1,0 +1,30 @@
+.hero__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 70px;
+}
+
+.hero__title__italic {
+  font-style: italic;
+  background: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right top,
+    #4dce29,
+    #4dce29,
+    #00b287,
+    #00a097,
+    #338c94
+  );
+}
+
+.hero__image {
+  height: 250px;
+}

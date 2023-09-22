@@ -1,0 +1,46 @@
+.buy__container {
+  margin-top: 150px;
+  height: 400px;
+}
+
+.buy__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buy__text span {
+  color: #808080;
+}
+
+.dexes__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.dex {
+  width: 350px;
+  height: 200px;
+  border: 3px solid #282b2f;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.dex:hover {
+  transform: scale(1.1);
+}
+
+.dex__img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}

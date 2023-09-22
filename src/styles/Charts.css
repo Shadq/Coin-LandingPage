@@ -1,0 +1,50 @@
+.chart__container {
+  height: 1000px;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.price__info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.stack__container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #282b2f;
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.stack__coin {
+  font-size: 35px;
+  color: #4dce29;
+}
+
+.stack__container span {
+  color: #808080;
+}
+
+.stack__price {
+  margin-top: 10px;
+  font-size: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right top,
+    #4dce29,
+    #4dce29,
+    #00b287,
+    #00a097,
+    #338c94
+  );
+}

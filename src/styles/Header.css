@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #0a0b0d;
+  justify-content: space-around;
+  border-bottom: 1px solid #282b2f;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+}
+
+li {
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
